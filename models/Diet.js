@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const dietSchema = new Schema({
   dietType: String,
-  ingredients: [ Schema.Types.Mixed ]
+  ingredients: [Schema.Types.Mixed]
 });
 
-const Diet = mongoose.model('Diet', dietSchema);
+const Diet = mongoose.model("Diet", dietSchema);
 
-module.exports = Diet
+module.exports = Diet;

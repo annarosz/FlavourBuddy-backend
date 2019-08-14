@@ -3,25 +3,25 @@
     {
       "dietType": "vegan",
       "ingredients": [
-        {"apple": ["banana", "miso", "peanuts"]}, 
-        {"apricot": ["raspberry", "lemon", "cabbage"]}, 
-        {"banana": ["peanuts", "raspberry", "blueberry"]}
+        { "beetroot": ["banana", "miso", "peanuts"] },
+        { "apricot": ["raspberry", "lemon", "cabbage"] },
+        { "banana": ["peanuts", "raspberry", "blueberry"] }
       ]
     },
     {
       "dietType": "vegetarian",
       "ingredients": [
-        {"cheese": ["apple", "miso", "peanuts"]}, 
-        {"eggs": ["mayo", "lemon", "cabbage"]}, 
-        {"cauliflower": ["butter", "raspberry", "blueberry"]}
+        { "cheese": ["apple", "miso", "peanuts"] },
+        { "eggs": ["mayo", "lemon", "cabbage"] },
+        { "cauliflower": ["butter", "raspberry", "blueberry"] }
       ]
     },
     {
       "dietType": "everything",
       "ingredients": [
-        {"bacon": ["eggs", "miso", "peanuts"]}, 
-        {"broccoli": ["anchovies", "lemon", "cabbage"]}, 
-        {"chicken": ["potato", "carrot", "paprika"]}
+        { "bacon": ["eggs", "miso", "peanuts"] },
+        { "broccoli": ["anchovies", "lemon", "cabbage"] },
+        { "chicken": ["potato", "carrot", "turmeric"] }
       ]
     }
   ]
