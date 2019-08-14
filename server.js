@@ -11,17 +11,25 @@ const Diet = require("./models/Diet");
 
 const dbName = "diet-database";
 
-mongoose.connect(
-  `mongodb://localhost:27017/${dbName}`,
-  { useNewUrlParser: true },
-  err => {
-    if (err) {
-      console.log("database is not connected ❌");
-    } else {
-      console.log("database is connected 💚");
-    }
+// mongoose.connect(
+//   `mongodb://localhost:27017/${dbName}`,
+//   { useNewUrlParser: true },
+//   err => {
+//     if (err) {
+//       console.log("database is not connected ❌");
+//     } else {
+//       console.log("database is connected 💚");
+//     }
+//   }
+// );
+
+mongoose.connect(process.env.DB_URL, { useNewUrlParser: true }, err => {
+  if (err) {
+    console.log("database is not connected ❌");
+  } else {
+    console.log("database is connected 💚");
   }
-);
+});
 
 // middleware
 app.use(express.json());
